@@ -1,36 +1,44 @@
 body {
-    background-color: #1B244A;
+    background-image: url("Basketball.jpg");
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    display: block;
+    margin: auto;
+    width: 700px;
     text-align: center;
 }
 
 .container {
+    background-color: #1B244A;
     display: flex;
     justify-content: space-around;
     font-weight: bold;
     color: #EEEEEE;
-    margin: 0%;
-    border: 0px;
+    margin-top: 90px;
+    border: #F94F6D solid 5px;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #score {
     background: #0a0001;
     font-family: 'Cursed Timer ULiL', sans-serif;
-    font-size: 90px;
+    font-size: 150px;
     color: #F94F6D;
     border-radius: 4px;
-    width: 120px;
+    width: 180px;
+    height: 180px;
     margin: 20px;
 }
 
 #score2 {
     background: #0a0001;
     font-family: 'Cursed Timer ULiL', sans-serif;
-    font-size: 90px;
+    font-size: 150px;
     color: #F94F6D;
     border-radius: 4px;
-    width: 120px;
+    width: 180px;
+    height: 180px;
     margin: 20px;
 }
 
@@ -38,6 +46,9 @@ button {
     background-color: #1B244A;
     color: #EEEEEE;
     font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: medium;
+    width: 50px;
+    height: 50px;
     border: #EEEEEE 1px solid;
     border-width: 1px;
     border-radius: 3px;
@@ -45,6 +56,7 @@ button {
 }
 
 h3 {
-    font-size: x-large;
+    font-size:xx-large;
+    font-style: italic;
 }
 
