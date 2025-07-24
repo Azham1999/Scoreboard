@@ -7,17 +7,21 @@ body {
     text-align: center;
 }
 
+.column {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 30px;
+}
+
 .container {
     background-color: #1B244A;
-    display: flex;
-    justify-content: space-around;
     font-weight: bold;
     color: #EEEEEE;
-    margin-top: 90px;
+    margin-top: 55px;
     border: #F94F6D solid 5px;
     border-radius: 5px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 #score {
@@ -60,3 +64,16 @@ h3 {
     font-style: italic;
 }
 
+#startagain-btn {
+    background-color: #1B244A;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 270px;
+    margin-top: 40px;
+    padding-top: 10px;
+    height: 50px;
+    width: 150px;
+    border: black solid 2px;
+}
