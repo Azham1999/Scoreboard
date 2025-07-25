@@ -1,6 +1,5 @@
 let Add = document.getElementById("score")
 
-
 let count = 0
 
 function homeaddone() {
