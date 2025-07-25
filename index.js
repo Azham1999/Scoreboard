@@ -1,5 +1,5 @@
 let Add = document.getElementById("score")
-let startAgain = document.getElementById("restart")
+
 
 let count = 0
 
@@ -41,4 +41,9 @@ function awayaddthree() {
     count2 = count2 + 3
     Add2.innerText = count2
     console.log(count2)
+}
+
+function restart() {
+    Add.innerText = 0
+    Add2.innerText = 0
 }
