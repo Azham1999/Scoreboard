@@ -43,6 +43,8 @@ function awayaddthree() {
 }
 
 function restart() {
-    Add.innerText = 0
-    Add2.innerText = 0
+    count = 0
+    count2 = 0
+    Add.innerText = count
+    Add2.innerText = count2
 }
